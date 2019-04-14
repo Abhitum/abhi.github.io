@@ -1,0 +1,45 @@
+<!doctype html>
+
+<title>Coming soon</title>
+
+<style>
+  body { text-align: center; padding: 150px; }
+  h1 { font-size: 50px; }
+  body { font: 20px Helvetica, sans-serif; color: #333; }
+  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
+  a { color: #dc8100; text-decoration: none; }
+  a:hover { color: #333; text-decoration: none; }
+</style>
+
+<article>
+    <h1>This&rsquo;site is currently being built!</h1>
+    <div>
+        <p>Thanks for visiting&rsquo;I am building my website at the moment. If you need to, you can always <a href="mailto:#">contact me</a>, it wi&rsquo;ll be online shortly!</p>
+        <p>&mdash; Abhi</p>
+    </div>
+</article>
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#eaf7f7",
+      "text": "#5c7291"
+    },
+    "button": {
+      "background": "#56cbdb",
+      "text": "#ffffff"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-right",
+  "type": "opt-out",
+  "content": {
+    "message": "This website doesn't use any cookie or saves any of your information (yet)! ",
+    "link": " "
+  }
+})});
+</script>
