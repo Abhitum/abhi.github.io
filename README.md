@@ -1,2 +1,2 @@
 # abhi.github.io
-My personal website, under construction. domain: www.abhiii.me
+My personal website, under construction. domain: abhiii.me
